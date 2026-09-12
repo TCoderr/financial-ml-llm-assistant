@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime artifacts
+out/
+*.db
+checkpoint.db
+*.joblib
+*.json
+
+# Data / large local files
+*.xlsx
+*.xls
+*.csv

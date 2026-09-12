@@ -1,0 +1,15 @@
+# Inferred direct dependencies, not a validated or reproducible lockfile.
+# sklearn >=1.2 is required by OneHotEncoder(sparse_output=False).
+fastapi
+uvicorn
+python-multipart
+pydantic
+python-dotenv
+numpy
+pandas
+openpyxl
+xlrd
+joblib
+scikit-learn>=1.2
+xgboost
+openai
